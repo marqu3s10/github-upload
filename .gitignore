@@ -1,0 +1,16 @@
+node/
+*.[oa]
+*~
+*.a
+!lib.a
+
+# ignore TODO files, not the directory
+/TODO
+
+# ignore all files in build directory
+build/
+
+# ...
+doc/*.txt
+
+doc/**/*.pdf
